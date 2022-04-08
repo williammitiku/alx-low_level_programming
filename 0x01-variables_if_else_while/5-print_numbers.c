@@ -1,6 +1,6 @@
 /*
  * File: 5-print_numbers.c
- * Auth: William M
+ * Auth: WIllo
  */
 
 #include <stdio.h>
@@ -20,4 +20,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
-}.
+}
