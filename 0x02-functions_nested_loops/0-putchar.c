@@ -1,19 +1,13 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * main - entry block
- * @void: no argument
- * Return: 0
- **/
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
+ */
 int main(void)
 {
-	char william[] = "_putchar";
-
-	int c;
-
-	for (c = 0; c < 8; c++)
-	{
-		_putchar(william[c]);
-	}
-	_putchar('\n');
-	return (0);
+char n[9] = "_putchar";
+printf("%s", n);
+printf("\n");
+return (0);
 }
