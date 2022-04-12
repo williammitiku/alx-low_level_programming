@@ -1,14 +1,18 @@
 #include "main.h"
-//William Mitiku
+/**
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
 int main(void)
 {
-	char x[] = "_putchar";
+	char william[] = "_putchar";
 
-	int k;
+	int c;
 
-	for (k = 0; k < 8; k++)
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(x[k]);
+		_putchar(william[c]);
 	}
 	_putchar('\n');
 	return (0);
