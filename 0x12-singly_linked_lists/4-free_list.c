@@ -3,6 +3,7 @@
 /**
  * free_list - frees a list_t list.
  * @head: pointer to the list.
+ * WIlliam Mitiku
  **/
 void free_list(list_t *head)
 {

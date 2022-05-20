@@ -3,6 +3,7 @@
 
 /**
  * first - prints before main
+ * William Mitiku
  */
 void __attribute__ ((constructor)) first()
 {
